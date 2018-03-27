@@ -1,0 +1,42 @@
+{
+    "name": "dynamic/silverstripe-elemental-flexslider",
+    "description": "Flexslider slideshow content block for SilverStripe Elemental",
+    "authors": [
+        {
+            "name": "Dynamic",
+            "email": "dev@dynamicagency.com",
+            "homepage": "http://www.dynamicagency.com"
+        }
+    ],
+    "keywords": [
+        "silverstripe"
+    ],
+    "type": "silverstripe-module",
+    "license": "BSD-3-Clause",
+    "require": {
+        "silverstripe/recipe-cms": "^1.0@dev"
+    },
+    "require-dev": {
+        "phpunit/PHPUnit": "^5.7"
+    },
+    "config": {
+        "process-timeout": 600
+    },
+    "extra": {
+        "expose": [
+            "thirdparty",
+            "icons"
+        ],
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Dynamic\\ElementalFlexslider\\": "src/",
+            "Dynamic\\ElementalFlexslider\\Test\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
