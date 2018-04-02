@@ -27,10 +27,6 @@
         "process-timeout": 600
     },
     "extra": {
-        "expose": [
-            "thirdparty",
-            "icons"
-        ],
         "branch-alias": {
             "dev-master": "1.0.x-dev"
         }
