@@ -27,6 +27,30 @@ Slideshow content block for SilverStripe Elemental
 
 A block to display a Flexslider slideshow on your page. Image, headline, description and link.
 
+## Flexslider Options
+* Slide or Fade transitions.
+* Animate Automatically - Starts the slideshow on page load.
+* Loop Carousel - Makes the slideshow an infinite loop instead of not being able to go next on the last slide or previous on the first slide.
+* Show ControlNav - Adds the circle dots as "pagination" links.
+* Show DirectionNav - Adds the arrows on the left and right sides of a slideshow for navigating.
+* Thumbnail Navigation - Creates thumbnail images below the main slide show. These are also used as navigation elements to each slide.
+* Show Carousel Control Navigation - Same as ControlNav above, except for the thumbnails.
+* Show Carousel Direction Navigation - Same as DirectionNav above, except for the thumbnails.
+
+## Screen Shots
+
+#### Front End sample of a Slideshow Element
+![Front End sample of a Slideshow Element](./readme-images/slideshow-block-sample.jpg)
+
+#### CMS - Slideshow Element Main Tab
+![CMS - Slideshow Block Main Tab](./readme-images/slideshow-block-cms.jpg)
+
+#### CMS - Slideshow Element - Slides List
+![CMS - Slideshow Element - Slides List](./readme-images/slideshow-block-cms-slides-list.jpg)
+
+#### CMS - Slideshow Element - Slide Add/Edit
+![CMS - Slideshow Element - Slide Add/Edit](./readme-images/slideshow-block-cms-slide.jpg)
+
 ## Getting more elements
 
 See [Elemental modules by Dynamic](https://github.com/dynamic/silverstripe-elemental-blocks#included-blocks)
