@@ -14,13 +14,12 @@
     ],
     "license": "BSD-3-Clause",
     "require": {
-        "silverstripe/recipe-cms": "^4@dev",
-        "silverstripe/vendor-plugin": "^1@dev",
-        "dnadesign/silverstripe-elemental": "^4@dev",
-        "dynamic/flexslider": "^4@dev"
+        "silverstripe/vendor-plugin": "^1.0",
+        "dnadesign/silverstripe-elemental": "^4.0",
+        "dynamic/flexslider": "^4.0"
     },
     "require-dev": {
-        "phpunit/PHPUnit": "^5.7",
+        "phpunit/phpunit": "^5.7",
         "squizlabs/php_codesniffer": "*"
     },
     "config": {
