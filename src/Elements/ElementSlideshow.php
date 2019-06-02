@@ -33,11 +33,14 @@ class ElementSlideshow extends BaseElement
     ];
 
     /**
-     * Set to false to prevent an in-line edit form from showing in an elemental area. Instead the element will be
-     * clickable and a GridFieldDetailForm will be used.
-     *
-     * @config
-     * @var bool
+     * @var array
+     */
+    private static $owns = [
+        'Slides',
+    ];
+
+    /**
+     * @var bool 
      */
     private static $inline_editable = false;
 
