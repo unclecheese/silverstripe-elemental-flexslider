@@ -40,7 +40,7 @@ class ElementSlideshow extends BaseElement
     ];
 
     /**
-     * @var bool 
+     * @var bool
      */
     private static $inline_editable = false;
 
