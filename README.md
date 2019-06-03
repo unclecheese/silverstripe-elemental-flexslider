@@ -15,9 +15,8 @@ Slideshow content block for SilverStripe Elemental
 
 ## Requirements
 
-* silverstripe/recipe-cms: ^4@dev
-* dnadesign/silverstripe-elemental: ^4@dev
-* dynamic/flexslider: ^4@dev
+* dnadesign/silverstripe-elemental: ^4.0
+* dynamic/flexslider: ^4.0
 
 ## Installation
 
